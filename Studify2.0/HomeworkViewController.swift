@@ -19,6 +19,7 @@ struct homeworkTableViewCellData {
     let colorImage : UIImage!
 }
 
+//HW display only
 class HomeworkViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var homeworkTableView: UITableView!
