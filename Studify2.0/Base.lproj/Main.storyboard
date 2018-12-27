@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="1480.8" y="-321.58920539730138"/>
         </scene>
-        <!--View Controller-->
+        <!--Add HW-->
         <scene sceneID="TlK-rs-KSa">
             <objects>
-                <viewController id="eJV-2G-xWp" sceneMemberID="viewController">
+                <viewController title="Add HW" id="eJV-2G-xWp" customClass="AddHomeworkViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0KQ-4g-CVs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -501,6 +501,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="IKN-jq-d9N"/>
-        <segue reference="NJf-Ub-Ww4"/>
+        <segue reference="Jw0-3F-1HV"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -21,6 +21,7 @@
 		89CFC1BE2172525400DCFF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CFC1BD2172525400DCFF7B /* Assets.xcassets */; };
 		89CFC1C12172525400DCFF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CFC1BF2172525400DCFF7B /* LaunchScreen.storyboard */; };
 		89CFC1CB217268E900DCFF7B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFC1CA217268E900DCFF7B /* SignUpViewController.swift */; };
+		B41D3DF821D5969100BCAC7A /* AddHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D3DF721D5969100BCAC7A /* AddHomeworkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		89CFC1C02172525400DCFF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89CFC1C22172525400DCFF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89CFC1CA217268E900DCFF7B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B41D3DF721D5969100BCAC7A /* AddHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHomeworkViewController.swift; sourceTree = "<group>"; };
 		EED2E54C4C269098CB9306E3 /* Pods-Studify2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studify2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Studify2.0/Pods-Studify2.0.release.xcconfig"; sourceTree = "<group>"; };
 		F45AAFCB09792B9B3BEDD8E8 /* Pods_Studify2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studify2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				89CFC1B82172525200DCFF7B /* SecondViewController.swift */,
 				89AFE65F2174142700D8F504 /* AccountViewController.swift */,
 				89CFC1BA2172525200DCFF7B /* Main.storyboard */,
+				B41D3DF721D5969100BCAC7A /* AddHomeworkViewController.swift */,
 				8945099C217EC4BF000AA49F /* HomeworkTableViewCell.swift */,
 				8945099D217EC4BF000AA49F /* HomeworkTableViewCell.xib */,
 				89450998217BB55D000AA49F /* AccountSettingsViewController.swift */,
@@ -235,6 +238,7 @@
 				89CFC1B92172525200DCFF7B /* SecondViewController.swift in Sources */,
 				89CFC1B52172525200DCFF7B /* AppDelegate.swift in Sources */,
 				89AFE6602174142700D8F504 /* AccountViewController.swift in Sources */,
+				B41D3DF821D5969100BCAC7A /* AddHomeworkViewController.swift in Sources */,
 				89CFC1CB217268E900DCFF7B /* SignUpViewController.swift in Sources */,
 				89AFE65E2172769E00D8F504 /* LogInViewController.swift in Sources */,
 				8945099E217EC4BF000AA49F /* HomeworkTableViewCell.swift in Sources */,
