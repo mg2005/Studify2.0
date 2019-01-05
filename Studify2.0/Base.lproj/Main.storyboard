@@ -58,6 +58,9 @@
                                 <date key="date" timeIntervalSinceReferenceDate="567643660.83843696">
                                     <!--2018-12-27 22:47:40 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="dueDateChanged:" destination="eJV-2G-xWp" eventType="valueChanged" id="Gjd-Ul-NC3"/>
+                                </connections>
                             </datePicker>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Teacher" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bDI-vO-fxU">
                                 <rect key="frame" x="154" y="326" width="67" height="30"/>
@@ -88,6 +91,9 @@
                                 <rect key="frame" x="169" y="562" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneButtonClicked:" destination="eJV-2G-xWp" eventType="touchUpInside" id="Apv-yU-AHY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Assignment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9e-rY-fe9">
                                 <rect key="frame" x="83" y="82" width="209" height="51"/>
@@ -100,6 +106,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uji-zU-xpF"/>
                     </view>
+                    <connections>
+                        <outlet property="classNamePicker" destination="0lo-EY-wiS" id="kDw-W2-w3Y"/>
+                        <outlet property="descriptionTextField" destination="Wv6-hA-tDN" id="rsb-dG-NE7"/>
+                        <outlet property="dueDatePicker" destination="UKR-BA-xUl" id="zKQ-R4-m0B"/>
+                        <outlet property="homeworkTextField" destination="DId-uO-Y2D" id="3wR-8g-dLT"/>
+                        <outlet property="otherTextField" destination="bcl-wz-eqR" id="i1T-Gb-wKW"/>
+                        <outlet property="teacherTextField" destination="bDI-vO-fxU" id="vZJ-J6-bGa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIu-Zb-i5q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
