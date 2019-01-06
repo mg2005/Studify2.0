@@ -67,7 +67,7 @@ class AddHomeworkViewController: UIViewController, UIPickerViewDataSource, UIPic
         teacherName = teacherTextField.text!
         descriptionText = descriptionTextField.text!
         otherText = otherTextField.text!
-        //performSegue(withIdentifier: "addHWtoHWlist", sender: self)
+        performSegue(withIdentifier: "addHWtoHWlist", sender: self)
         print(homeworkName)
         print(dueDatePicker.date)
         print(teacherName)

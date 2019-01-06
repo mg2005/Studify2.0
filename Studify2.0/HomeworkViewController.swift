@@ -61,5 +61,11 @@ class HomeworkViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 67
     }
+    
+    //Add HW Button
+    @IBAction func inputHW(_ sender: Any) {
+        performSegue(withIdentifier: "inputHW", sender: self)
+    }
+    
 }
 

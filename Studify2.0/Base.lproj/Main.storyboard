@@ -93,6 +93,7 @@
                                 <state key="normal" title="Done"/>
                                 <connections>
                                     <action selector="doneButtonClicked:" destination="eJV-2G-xWp" eventType="touchUpInside" id="Apv-yU-AHY"/>
+                                    <segue destination="9pv-A4-QxB" kind="show" identifier="addHWtoHWlist" id="O3y-FR-jsU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Assignment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9e-rY-fe9">
@@ -141,7 +142,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="eJV-2G-xWp" kind="show" id="ASw-0c-sVE"/>
+                                    <action selector="inputHW:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xaK-95-9cS"/>
+                                    <segue destination="eJV-2G-xWp" kind="show" identifier="inputHW" id="ASw-0c-sVE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -514,7 +516,9 @@
         <image name="StudifyBackground" width="165.6441650390625" height="294.18405151367188"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="ASw-0c-sVE"/>
         <segue reference="IKN-jq-d9N"/>
         <segue reference="Jw0-3F-1HV"/>
+        <segue reference="O3y-FR-jsU"/>
     </inferredMetricsTieBreakers>
 </document>
